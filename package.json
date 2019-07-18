@@ -1,0 +1,23 @@
+{
+  "name": "nullish-coalescing-operator-grammar",
+  "displayName": "Nullish Coalescing Operator Grammar",
+  "description": "Adds Nullish Coalescing Operator support to the built in JavaScript grammar",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "nullish-coalescing.injection",
+        "injectTo": [
+          "source.js"
+        ]
+      }
+    ]
+  }
+}

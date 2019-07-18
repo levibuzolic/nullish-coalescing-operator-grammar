@@ -1,0 +1,27 @@
+{
+	"scopeName": "nullish-coalescing.injection",
+	"injectionSelector": "L:source.js",
+	"patterns": [
+		{
+			"include": "#expression"
+		}
+	],
+	"repository": {
+		"expression": {
+			"patterns": [
+				{
+					"include": "#nullish-coalescing"
+				}
+			]
+		},
+		"nullish-coalescing": {
+			"match": "\\?\\?",
+			"name": "keyword.operator.logical.js",
+			"patterns": [
+				{
+					"include": "#expression"
+				}
+			]
+		}
+	}
+}
