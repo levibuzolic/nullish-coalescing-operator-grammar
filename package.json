@@ -2,7 +2,12 @@
   "name": "nullish-coalescing-operator-grammar",
   "displayName": "Nullish Coalescing Operator Grammar",
   "description": "Adds Nullish Coalescing Operator support to the built in JavaScript grammar",
+  "publisher": "Levi",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "github:levibuzolic/nullish-coalescing-operator-grammar"
+  },
   "engines": {
     "vscode": "^1.36.0"
   },
